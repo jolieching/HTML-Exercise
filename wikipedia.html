@@ -4,19 +4,110 @@
 <head>
     <title>Memorial Day - Wikipedia</title>
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg">
+
+    <style>
+        p { /* element */
+            font-family: sans-serif;
+        }
+
+        .title { /* class */
+            text-align: left;
+        }
+
+       .img_box, #dates { /* selector1, selector2  & #id */
+            border: 1px solid black; /* border */
+        }
+
+        a[href*="#sec"]:hover { /* [attribute], [attribute=value] */
+            color: pink; /* color */
+        }
+
+        table:first-of-type { /* descendant_selector */
+            font-family: sans-serif;
+            font-size: 12px;
+            padding-left: 15px;
+        }
+
+        .img_box > p { /* parent_selector > child_selector */
+            font-size: 12px;
+            padding: 0px 5px 0px 5px;
+        }
+
+        .quote p { /* .compounding[selectors] */
+            text-align: center;
+            padding: 0px 40px 0px 40px; /* padding */
+        }
+
+        .img_box {
+            text-align: center;
+            background: #f8f9fb; /* background */
+        }
+
+        .intro_text {
+            flex-grow: 1;
+            margin-right: 15px;  /* box model's margin */
+        }
+
+        .introduction {
+            display: flex;
+        }
+
+        img {
+            width: 200px;
+            margin: 10px;
+        }
+
+        .title_box {
+            background: #dbccfa;
+        }
+
+    </style>
+
 </head>
 
 <body>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG" alt="Graves at Arlington National Cemetery on Memorial Day" width="50%" height="50%">
+
   <h1 class="title">Memorial Day</h1>
   <hr>
+  <div class="introduction">
 
-  <div class="intro">
-    <p>Memorial Day (originally known as Decoration Day<sup>[1]</sup>) is a <a href="https://en.wikipedia.org/wiki/Federal_holidays_in_the_United_States">federal holiday in the United States</a> for honoring and mourning the military personnel who have died in the performance of their military duties.<sup>[2]</sup> The holiday is <a href="https://en.wikipedia.org/wiki/Uniform_Monday_Holiday_Act">observed</a> on the last Monday of May. The holiday was observed on May 30 from 1868 to 1970.<sup>[3]</sup> </p>
-    <p> On May 1, 1865 in Charleston, SC, formerly enslaved African Americans honored hundreds of Black soldiers who were killed in the Civil War and buried in a mass grave. They unearthed the bodies and gave each a proper burial and held a parade in the soldiers’ honor.<sup>[4]</sup>This memorial honoring of Black fallen soldiers is believed to have been the first Memorial Day before it later became a recognized holiday. </p>
-    <p>Many people visit cemeteries and memorials on Memorial Day to honor and mourn those who died while serving in the U.S. military. Many volunteers place an American flag on graves of military personnel in <a href="https://en.wikipedia.org/wiki/United_States_National_Cemetery_System">national cemeteries</a>. Memorial Day is also considered the unofficial beginning of <a href="https://en.wikipedia.org/wiki/Summer">summer</a> in the United States,<sup>[5]</sup> while <a href="https://en.wikipedia.org/wiki/Labor_Day">Labor Day</a>, the first Monday of September, marks the unofficial start of <a href="https://en.wikipedia.org/wiki/Autumn">autumn</a>a and the end of the summer. </p>
-    <p> After the Charleston memorial in 1865, many cities and individuals claimed to have been the first to celebrate the event. In 1868, General <a href="https://en.wikipedia.org/wiki/John_A._Logan">John A. Logan</a>of the <a href="https://en.wikipedia.org/wiki/Grand_Army_of_the_Republic">Grand Army of the Republic</a> called for a "Decoration Day", which was widely celebrated. By 1890, every Northern state had adopted it as a holiday. The World Wars turned it into a generalized day of remembrance, instead of just for the Civil War. In 1971, Congress standardized the holiday as "Memorial Day" and changed its observance. </p>
-    <p> Two other days celebrate those who have served or are serving in the U.S. military: <a href="https://en.wikipedia.org/wiki/Armed_Forces_Day#United_States">Armed Forces Day</a> (which is earlier in May), an unofficial U.S. holiday for honoring those currently serving in the armed forces, and <a href="https://en.wikipedia.org/wiki/Veterans_Day">Veterans Day</a> (on November 11), which honors those who have served in the <a href="https://en.wikipedia.org/wiki/United_States_Armed_Forces">United States Armed Forces</a>.<sup>[6]</sup></p>
+    <div class="intro_text">
+      <p>Memorial Day (originally known as Decoration Day<sup>[1]</sup>) is a <a href="https://en.wikipedia.org/wiki/Federal_holidays_in_the_United_States">federal holiday in the United States</a> for honoring and mourning the military personnel who have died in the performance of their military duties.<sup>[2]</sup> The holiday is <a href="https://en.wikipedia.org/wiki/Uniform_Monday_Holiday_Act">observed</a> on the last Monday of May. The holiday was observed on May 30 from 1868 to 1970.<sup>[3]</sup> </p>
+      <p> On May 1, 1865 in Charleston, SC, formerly enslaved African Americans honored hundreds of Black soldiers who were killed in the Civil War and buried in a mass grave. They unearthed the bodies and gave each a proper burial and held a parade in the soldiers' honor.<sup>[4]</sup>This memorial honoring of Black fallen soldiers is believed to have been the first Memorial Day before it later became a recognized holiday. </p>
+      <p>Many people visit cemeteries and memorials on Memorial Day to honor and mourn those who died while serving in the U.S. military. Many volunteers place an American flag on graves of military personnel in <a href="https://en.wikipedia.org/wiki/United_States_National_Cemetery_System">national cemeteries</a>. Memorial Day is also considered the unofficial beginning of <a href="https://en.wikipedia.org/wiki/Summer">summer</a> in the United States,<sup>[5]</sup> while <a href="https://en.wikipedia.org/wiki/Labor_Day">Labor Day</a>, the first Monday of September, marks the unofficial start of <a href="https://en.wikipedia.org/wiki/Autumn">autumn</a>a and the end of the summer. </p>
+      <p> After the Charleston memorial in 1865, many cities and individuals claimed to have been the first to celebrate the event. In 1868, General <a href="https://en.wikipedia.org/wiki/John_A._Logan">John A. Logan</a>of the <a href="https://en.wikipedia.org/wiki/Grand_Army_of_the_Republic">Grand Army of the Republic</a> called for a "Decoration Day", which was widely celebrated. By 1890, every Northern state had adopted it as a holiday. The World Wars turned it into a generalized day of remembrance, instead of just for the Civil War. In 1971, Congress standardized the holiday as "Memorial Day" and changed its observance. </p>
+      <p> Two other days celebrate those who have served or are serving in the U.S. military: <a href="https://en.wikipedia.org/wiki/Armed_Forces_Day#United_States">Armed Forces Day</a> (which is earlier in May), an unofficial U.S. holiday for honoring those currently serving in the armed forces, and <a href="https://en.wikipedia.org/wiki/Veterans_Day">Veterans Day</a> (on November 11), which honors those who have served in the <a href="https://en.wikipedia.org/wiki/United_States_Armed_Forces">United States Armed Forces</a>.<sup>[6]</sup></p>
+    </div>
+
+     <div class="img_box">
+       <div class="title_box">
+           <h4>Memorial Day</h4>
+       </div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Graves_at_Arlington_on_Memorial_Day.JPG" alt="Graves at Arlington National Cemetery on Memorial Day" height="50%">
+         <p>The gravestones at <a href="https://en.wikipedia.org/wiki/Arlington_National_Cemetery">Arlington National Cemetery</a> are decorated by U.S. flags on Memorial Day weekend in 2008.</p>
+         <table>
+             <tr>
+                 <th>Official Name</th>
+                 <td style="display: table-header-group">Memorial Day</td>
+             </tr>
+             <tr>
+                 <th>Observed by</th>
+                 <td style="display: table-header-group">Americans</td>
+             </tr>
+             <tr>
+                 <th>Type</th>
+                 <td style="display: table-header-group">National</td>
+             </tr>
+             <tr>
+                 <th>Date</th>
+                 <td style="display: table-header-group">Last Monday in May</td>
+             </tr>
+             <tr>
+                 <th>Frequency</th>
+                 <td style="display: table-header-group">Annual</td>
+             </tr>
+         </table>
+     </div>
   </div>
 
   <nav class="menu">
@@ -47,13 +138,13 @@
   <hr>
   <p>In April 1865, following <a href="https://en.wikipedia.org/wiki/Abraham_Lincoln#Assassination">Lincoln's assassination</a>, commemorations were widespread. The more than 600,000 soldiers of both sides who died in the Civil War meant that burial and memorialization took on new cultural significance. Under the leadership of women during the war, an increasingly formal practice of decorating graves had taken shape. In 1865, the federal government also began creating the <a href="https://en.wikipedia.org/wiki/United_States_National_Cemetery_System">United States National Cemetery System</a> for the Union war dead.<sup>[51]</sup></p>
   <p>By the 1880s, ceremonies were becoming more consistent across geography as the GAR provided handbooks that presented specific procedures, poems, and Bible verses for local post commanders to utilize in planning the local event. Historian Stuart McConnell reports:</p>
-  <div class="quote" align="middle">
-    <p>on the day itself, the post assembled and marched to the local cemetery to decorate the graves of the fallen, an enterprise meticulously organized months in advance to assure that none were missed. Finally came a simple and subdued graveyard service involving prayers, short patriotic speeches, and music … and at the end perhaps a rifle salute.<sup>[52]</sup></p>
+  <div class="quote">
+      <p>on the day itself, the post assembled and marched to the local cemetery to decorate the graves of the fallen, an enterprise meticulously organized months in advance to assure that none were missed. Finally came a simple and subdued graveyard service involving prayers, short patriotic speeches, and music ... and at the end perhaps a rifle salute.<sup>[52]</sup></p>
   </div>
 
   <h2 id="sec5">Observance dates (1971 - present)</h2>
   <hr>
-  <table>
+  <table id="dates">
       <tr>
           <th>Year</th>
           <th style="display: table-header-group">Memorial Day</th>
