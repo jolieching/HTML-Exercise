@@ -1,6 +1,16 @@
-# HTML & CSS Exercise
+# HTML/CSS/JavaScript Exercise
 EE491F Coursework
+---
+Update your first web page to use some jQuery features detailed in [JavaScript Exercises section](https://ee491f.github.io/course-material/#javascript-exercises)
 
+---
+##### Acceptance Criteria
+- [x] Add some jQuery code that:
+  - [x] selects some element(s) on the page
+  - [x] listens for an event to affect the selected element(s)
+  - [x] trigger some action to perform on the selected element(s)
+- [x] save your web page to a GitHub repository
+- [x] submit a link to your GitHub repository to Laulima
 ---
 Update your first web page to include the common selectors and properties by following the [CSS Exercises section](https://ee491f.github.io/course-material/#css-exercises)
 
