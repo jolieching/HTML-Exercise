@@ -1,6 +1,18 @@
 # HTML/CSS/JavaScript Exercise
 EE491F Coursework
 ---
+Update your first web page to use some Bootstrap features detailed in [JavaScript Exercises section](https://ee491f.github.io/course-material/#javascript-exercises)
+
+---
+##### Acceptance Criteria
+- [x] Layout your page using Bootstrap's [layout, container, & grid system](https://getbootstrap.com/docs/4.1/layout/grid/)
+- [x] Style the text on your page using Bootstrap's [Alerts](https://getbootstrap.com/docs/4.1/components/alerts/)
+- [x] Add a [NavBar](https://getbootstrap.com/docs/4.1/components/navbar/) using Bootstrap
+- [x] Style some elements on your page using Bootstrap's [Borders](https://getbootstrap.com/docs/4.1/utilities/borders/)
+- [x] save your web page to a GitHub repository
+- [x] submit a link to your GitHub repository to Laulima
+
+---
 Update your first web page to use some jQuery features detailed in [JavaScript Exercises section](https://ee491f.github.io/course-material/#javascript-exercises)
 
 ---
