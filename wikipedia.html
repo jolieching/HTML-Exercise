@@ -5,6 +5,20 @@
     <title>Memorial Day - Wikipedia</title>
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                $('.menu').slideToggle();
+                if($(this).text() == 'Hide Table of Contents'){
+                    $(this).text('Show Table of Contents');
+                } else {
+                    $(this).text('Hide Table of Contents');
+                }
+            });
+        });
+    </script>
+
     <style>
         p { /* element */
             font-family: sans-serif;
@@ -120,6 +134,7 @@
           <li><a href="#sec5">Observance dates</a></li>
       </ol>
   </nav>
+  <button>Hide Table of Contents</button>
 
   <h2 id="sec1">Claimed Origins</h2>
   <hr>
